@@ -10,5 +10,4 @@ class MetodoDePagoTarjeta implements MetodoDePago {
     float totalVenta(float unMonto) {
         return unMonto + cantidadDeCuotas * unMonto * 0.01 * coeficiente;
     }
-
 }
