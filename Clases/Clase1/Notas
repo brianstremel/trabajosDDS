@@ -1,0 +1,24 @@
+Notas.
+  -No se hace mains en los tps, se prueban las cosas con test unitarios.
+  -Excepciones no chequeadas son como las de wollok
+  -Excepciones chequeadas te obligan a definir explicitamente la interaccion a tener
+  en el caso de llamar a un método que tenga una excepcion.
+
+  metodo x() throws MiExcepcionChequeda
+    thore new MiExcepcionChequeda()
+
+    1) no me interesa atraparla
+    metodo y() throws MiExcepcionChequeda
+      this.x()
+
+    2) atraparla
+    metodo y()
+      try
+        this.x()
+      catch MiExcepcionChequeda
+        //hago lo que corresponda
+
+    -Creacion de clases
+
+    class MiExcepcionChequeda extends RuntimeException
+    class MiExcepcionChequeda extends Exception (no la usamos)
