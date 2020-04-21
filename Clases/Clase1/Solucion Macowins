@@ -1,9 +1,0 @@
--Para la prenda se tendría que tener al estado como una variable ya que este
-puede variar con el tiempo.
--La prosa es algo complementario al diagrama de clases y pseudocodigo
-Esta solo sirve para aclarar cosas que no se puede hacer en codigo, cómo
-implementaciones descartadas.
-
-Requerimientos.
-  Saber las ganancias al fin del día.
-  Saber el precio de una prenda.
